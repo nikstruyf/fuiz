@@ -2,7 +2,7 @@ import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import Background1 from '../pics/bg-3.jpg';
 import Background2 from '../pics/bg-1.jpg';
-import Background3 from '../pics/bg-2.jpg';
+import Background3 from '../pics/sortwall2.png';
 
 export default function Home() {
 
@@ -26,7 +26,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="my-1">
-                            <div className="mt-1 rounded-b-lg overflow-hidden w-full hover:bg-purple-200" style={{cursor: "pointer"}} onClick={() => navigate('/quiz')}>
+                            <div className="mt-1 rounded-b-lg overflow-hidden w-full hover:bg-purple-200" style={{cursor: "pointer"}} onClick={() => navigate('/sortpic')}>
                                 <img src={Background3} alt="Quiz" className="h-28 w-44 float-right " />
                                 <div className="p-2">
                                     <div className="fs-5 font-semibold " style={{fontFamily: "Concert One", color: "#651880"}}>Sort Pic</div>
@@ -34,8 +34,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>  
                 </div>
             </div>
         </>
